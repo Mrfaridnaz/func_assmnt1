@@ -1,0 +1,26 @@
+A lambda function is an anonymous, inline function defined using the
+lambda keyword. It can take any number of arguments but only has a single
+expression. The expression is evaluated and returned when the function is
+called. Lambda functions are used for small, simple operations and are
+typically used when you need a short function for a short period, often
+passed as an argument to higher-order functions (e.g., map(), filter(),
+or sorted()).
+----------------------------------------------------------------------
+Key Differences from a Regular Function:
+Anonymous:
+Lambda functions are anonymous, meaning they do not require a
+name, while regular functions are usually defined with the def keyword and are named.
+
+Inline:
+Lambda functions are written in a single line and can only contain one expression.
+Regular functions can span multiple lines and contain more complex logic, including multiple
+expressions, loops, and control flow statements.
+
+Function Body:
+Lambda functions can only have an expression (which is implicitly returned),
+while regular functions can have multiple statements and explicit return statements.
+
+Use Case:
+Lambda functions are typically used for short, throwaway operations that do not
+require a full function definition. Regular functions are used when more complex logic or
+reusability is needed.
