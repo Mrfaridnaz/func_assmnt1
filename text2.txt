@@ -1,0 +1,9 @@
+Yes, a lambda function in Python can have multiple arguments. You can define multiple arguments
+in a lambda function just as you would in a regular function, separated by commas.
+
+lambda arg1, arg2, ... , argN: expression
+
+Each argument is passed into the lambda function and used in the expression. When the lambda
+function is called, these arguments are evaluated and the result of the expression is returned
+
+
