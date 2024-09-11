@@ -1,0 +1,3 @@
+# Are lambda functions in Python able to access variables defined outside of their own scope?
+Explain with an example.
+
