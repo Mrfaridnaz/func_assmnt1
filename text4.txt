@@ -1,0 +1,47 @@
+# 4. What are the advantages and limitations of lambda functions
+compared to regular functions in Python?
+
+2. Anonymous Functions: Lambda functions don't require a name, making them useful for defining
+short-lived functions on the fly, especially as arguments to other functions.
+
+Example: Used in map(), filter(), sorted(), etc.
+Functional Programming: Lambda functions fit naturally into functional programming constructs,
+where functions are passed as arguments or returned as values. They make higher-order functions
+like map(), filter(), and reduce() more readable.
+
+3. Inline Usage: When you need a quick, temporary function without having to formally define one using
+def, lambda functions are perfect. They are often used in event-driven programming for simple actions.
+
+--------------------------------------------------
+Limitations of Lambda Functions:
+Limited Functionality: Lambda functions are restricted to a single expression.
+You cannot include multiple statements, loops, or more complex logic inside a lambda.
+
+Regular functions allow for more complex operations: in prob4 -- 2.1
+
+--------------------------------------------------
+Lack of Readability: Lambda functions can become hard to read if they are used for complex operations.
+Regular functions, with proper naming and structure, tend to be more readable and easier to understand,
+specially for more complex logic.
+
+No Documentation: Lambda functions cannot have a docstring (a string that documents what
+the function does). Regular functions, on the other hand, can have docstrings, which makes
+them better suited for writing clear, self-explanatory code. # Prob4 -- 2.2
+
+---------------------------------------------------
+Debugging Difficulty: Lambda functions, being anonymous and inline, are harder to debug because they
+lack names and cannot be broken down or logged easily. Regular functions are better for debugging
+since you can name them and include print statements or other debugging tools.
+
+Reusability: Lambda functions are typically not reusable, as they are usually defined in-place
+and don't have a meaningful name. Regular functions, on the other hand, can be defined once and
+reused throughout the program.
+
+---------------------------------------------------
+When to Use Lambda vs Regular Functions:
+Use lambda functions for small, simple tasks, especially when they are used as arguments to
+higher-order functions and when brevity and simplicity are desired.
+Use regular functions for more complex logic, operations involving multiple steps,
+when the function needs to be reused, or when documentation and type annotations are needed.
+
+2.3
