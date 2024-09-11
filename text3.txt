@@ -1,0 +1,11 @@
+Lambda functions in Python are typically used in scenarios where you need a small, throwaway function for short-term use. They are commonly passed as arguments to higher-order functions (functions that take other functions as input) like:
+Sorting with sorted() or sort(): When you need to sort a list based on a custom key.
+Functional Programming Tools: Functions like map(), filter(), and reduce() often use lambda functions.
+Event Handling: In GUI applications, lambda functions can be used for handling events.
+Inline Functions: When defining a small function in-line that doesn’t need to be reused.
+Example Use Cases of Lambda Functions: in Prob3
+
+Lambda functions are used when you need a small, anonymous function for a short period, especially
+as arguments to higher-order functions like sorted(), map(), filter(), or reduce().
+They are concise and improve readability in scenarios where defining a full function
+would be overkill.
